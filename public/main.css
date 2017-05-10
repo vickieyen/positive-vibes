@@ -1,0 +1,40 @@
+html {
+  background:#018DED url(http://unsplash.it/1500/1000?image=881&blur=50);
+  background-size:cover;
+  font-family:'helvetica neue';
+  text-align: left;
+  font-size: 20px;
+}
+
+body {
+  padding: 30px;
+  font-family: Arial, sans-serif;
+  color: #fff;
+
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  max-width: 90%;
+}
+
+input {
+  font-size: 1.0em;
+  padding: 5px;
+  margin-bottom: 10px;
+
+}
+
+
+button {
+  padding: 10px;
+  background-color: #0f5f74;
+  border: none;
+  color: #fff;
+}
+
+button:hover {
+  box-shadow: 3px 2px 3px #6a7988;
+}
